@@ -12,18 +12,26 @@ A simple Streamlit web app that uses a local LLM (Mistral-7B) to enhance and opt
 
 1. Make sure you have Python 3.8+ installed.
 2. Clone the repo, cd into the folder and create virtual python environment 
-    > git clone https://github.com/florexong/Local_Prompt_Optimizer
-    >
-    > cd Local_Prompt_Optimizer
-    >
-    > python -m venv #change it to virtual environment name you want
+    ```bash    
+     git clone https://github.com/florexong/Local_Prompt_Optimizer
+    
+     cd Local_Prompt_Optimizer
+    
+     python -m venv #change it to virtual environment name you want
+    ```
 3. Activate the python virtual environment and install the required dependencies 
-    > venv\Scripts\activate
-    >
-    > pip install requirements.txt
+    ```bash
+    #Activating the python virtual environment
+    venv\Scripts\activate
+    #install requirements.txt
+    pip install requirements.txt
+    ```
 4. Download the Mistral-7B model and place it in the `models/` directory.
-    >Run it on powershell
-    >
-    >wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    ```bash
+    #Run it on powershell
+    wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+    ```
 5. Run the app:
-    > streamlit run app.py
+    ```bash
+    streamlit run app.py
+    ```
