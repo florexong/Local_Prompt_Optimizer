@@ -1,0 +1,9 @@
+#Python venv
+venv/
+
+#Huggingface Cache
+.cache/ 
+
+
+#ignored the model
+models/
